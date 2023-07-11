@@ -1,0 +1,5 @@
+def double_char(s):
+    answer = ''
+    for letter in s:
+        answer+=letter*2
+    return answer
